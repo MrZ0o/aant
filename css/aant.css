@@ -1,0 +1,854 @@
+/* CSS Personalizado de Aant */
+/* Novimbre 2017 */
+/* jalfonso@zootropostudio.com */
+
+
+* { margin: 0; padding: 0; }
+
+
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+    
+  font-family: 'Varela Round', sans-serif;
+    
+  padding-top: 8rem;
+
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+a {
+    color: #51b70d;
+    text-decoration: none;
+}
+
+/* Inicia NavBar */
+
+.bg-inverse {
+    height: 65px;
+	background-color: #421e5d!important;
+	/*background: none !important;*/
+}
+
+@media (max-width: 990px) {
+    .bg-inverse {
+        height: auto;
+    }
+
+}
+
+
+
+.txt_formaContacto{
+    font-size: 1rem;
+    color: #662d91;
+}
+
+/* termina NavBar */
+
+.iconosRedes{
+    font-size: 3em;
+	display: block;
+    position: relative;
+    top: -0.2em;
+    text-decoration: none;
+}
+/* unvisited link */
+a .iconosRedes  {
+    color: #421e5d;
+     text-decoration: none !important;
+}
+
+/* mouse over link */
+a:hover .iconosRedes {
+    color: #e07d30;
+    text-decoration: none !important;
+    text-decoration-line: none;
+}
+ /* Hover Boton NavBar */
+.navbar-inverse .navbar-nav .nav-link, .footer-link {
+    margin-top: 1rem;
+    color: #421e5d !important;
+}
+.navbar-inverse .navbar-nav .nav-link:hover, .navbar-inverse .navbar-nav .nav-link:active, .footer-link:hover, .footer-link:focus, .txtVerde:focus, .txtVerde:hover{
+    text-decoration: none;
+    color: #e07d30 !important;
+}
+ /* Hover DropItem */
+.navbar-inverse .navbar-nav .active>.nav-link, .navbar-inverse .navbar-nav .nav-link.active, .navbar-inverse .navbar-nav .nav-link.open, .navbar-inverse .navbar-nav .open>.nav-link {
+	color: #e07d30 !important;
+}
+.navbar-inverse .navbar-nav .active>.nav-link:hover , .navbar-inverse .navbar-nav .nav-link.open, .navbar-inverse .navbar-nav .open>.nav-link:hover  {
+	color: #e07d30 !important;
+}
+
+.navbar-brand{
+    margin-top: 1rem;
+}
+
+
+/* Footer --------------------------------------------------------------- */
+.iconoFooter{
+ font-size: 1.5em;  
+}
+.imgFooter{
+    margin-bottom: 1rem;
+}
+
+.footerPandaguritos{
+	font-size: 1em;
+	color: #999b9e;
+	display: block;
+	background-color: white;
+	/* -ms-transform: matrix(1, -0.06, 0, 1, 0, 0);  IE 9 */
+    /* -webkit-transform: matrix(1, -0.06, 0, 1, 0, 0);  Safari */
+    /* transform: matrix(1, -0.06, 0, 1, 0, 0);  Standard syntax */
+}
+.footerAant{
+	font-size: 1em;
+	color: #ffffff;
+	display: block;
+	background-color: #421e5d;
+}
+
+
+
+.listaFooter{
+	display: block;
+	width: 100%;
+	list-style: none;
+    padding: 0;
+}
+.listaFooterInicia{
+    margin-left: 1rem;
+}
+
+.footerNav {
+    position: relative;
+    top: 4rem; 
+	width:100%;
+	height: 350px;
+	background: white;
+    /* -ms-transform: matrix(1, 0.06, 0, 1, 0, 60);  IE 9 */
+    /* -webkit-transform: matrix(1, 0.06, 0, 1, 0, 30);  Safari */
+    /* transform: matrix(1, 0.05, 0, 1, 0, 60);  Standard syntax */
+}
+
+.footer-link {
+  color: #999b9e;
+}
+
+/* Estilos solo de maqueta */
+
+.contenedorIndex{
+    display: block;
+    height:2867px;
+}
+.contenedorServicios{
+    display: block;
+    height:1425px;
+}
+/* Fin Footer ----------------------------------------------------------- */
+
+
+
+.form-control {
+    margin: 0 auto;
+	/*border: 1px solid #51b70d;*/
+	width: 80%;
+	/*  border-color: #51b70d;*/
+	border-radius: 0rem;
+    margin-bottom: 0.2rem;
+    margin-top: 1.5rem;
+	/*color: rgba(81,183,13,0.2);
+	color: #95b58f;*/
+}
+
+
+
+
+/* --- Pandaguritos ---*/
+.Bodyhome {
+  background: url(../images/bg/index_maqueta.png) no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: contain;
+}
+.BodyServicios {
+  background: url(../images/bg/Bg_Albanileria.png) no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: contain;
+}
+
+
+
+.backAzul, .backRosa, .backMorado{
+	color: #fff;
+	border-radius: 25px 25px 55px 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0px;
+}
+.backBlanco{
+	background: #fff;
+	color: #000;
+	height: auto;
+
+}
+.backAzul{
+	background: #0059ff;
+
+}
+.backRosa{
+	background: #ff00ff;
+}
+.backMorado{
+	background: #6e2eff;
+}
+.backHomeVerde{
+	background: url(../img/bg/Bg_Verde.png) center center fixed; 
+	height: auto;
+	/*margin-top: 80px;*/
+}
+.backHomeAzul{
+	background: url(../img/bg/Bg_Azul.png) center center; 
+/*margin-bottom: -100px;*/
+
+}
+.backHomeVerdeTexto, .backBlancoTexto{
+	color: #fff;
+	padding-bottom: 20px;
+
+}
+.backBlancoTexto{
+	color: #999b9e;
+	height: 400px;
+}
+.backBlancoTextoImg{
+	float: left;
+}
+
+/* Btn Buscar */
+.my-lg-0 {
+    top: -10px;
+    position: relative;
+}
+
+
+
+
+/* Drop Menu NavBar */
+
+.show>.dropdown-menu.dropdown-menu {
+	position: absolute;
+    top: 50%;
+    display: block;
+    border: none;
+    background: none;
+}
+.dropdown-item {
+	color: #fff;
+    background: #4b2275;
+    border-radius: 0rem;
+    margin-bottom: 1px;
+    padding: 1px;
+    padding-left: 10px;
+    margin-left: 0px;
+}
+/*Icono tienda Tienda */
+.txtTienda{
+	display: none;
+}
+.iconoTienda{
+	display: block;
+    position: relative;
+    top: -0.2em;
+}
+.iconoBuscar, .iconoTienda{
+	font-size: 2.5em;
+}
+
+@media (max-width: 990px) {
+	.txtTienda{
+		display: block;
+	}
+	.iconoTienda{
+		display: none;
+	}
+	.dropdown-item {
+	    margin-left: 100px;
+	}
+	.show>.dropdown-menu.dropdown-menu {
+        top: 0%;
+    }
+
+}
+.dropdown-item:hover {
+	color: #fff;
+    background: #e07d30;
+    border-radius: 0rem;
+    margin-bottom: 1px;
+}
+/* Menu SideBar */
+.sideBar {
+
+	float: left;
+	display: block;
+	background-color: white;
+}
+
+.personajeSideBar{
+   margin: 0 auto;
+}
+
+}
+.sideBarMenu-item {
+ position: relative;
+  width: 100%;
+	border: 1px solid #49c8f5;
+	color: #fff;
+    border-radius: 1rem;
+    border-top-left-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    padding: 1px 15px 1px 15px;
+
+}
+.sideBarMenu-item a:Hover{
+	text-decoration: none;
+}
+.sideBarMenu-item:hover {
+	color: #fff;
+    background: #49c8f5;
+    margin-bottom: 1px;
+}
+/* Menu Mobile */
+.navbar-inverse .navbar-toggler {
+	/* Outline border: 1px solid #51b70d; */
+	/*Outline border: none;*/
+	background-color: #51b70d !important;
+}
+
+.BarraNavBar {
+	height: 180px;
+    /*background: url(../img/bg/bgNavBar.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: bottom left;*/
+    width: 100%;
+    position: absolute;
+    bottom: -180px;
+}
+
+.NavBarSkew {
+	background: none;
+    /*-ms-transform: matrix(1, 0.04, 0, 1, 0, 20);  IE 9 
+    -webkit-transform: matrix(1, 0.04, 0, 1, 0, 20);  Safari 
+    transform: matrix(1, 0.04, 0, 1, 0, 20);  Standard syntax */
+}
+
+/* .navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgbargba(0, 0, 0, 0.5)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+} */
+
+/* Fin NavBar */
+
+
+.display-3{
+	color: #f2f2f2;
+}
+
+/* Footer --------------------------------------------------------------- */
+.txtquienesSomos{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+.txtVerde{
+	text-decoration: none;
+	color: #5bba47;
+}
+
+.txtCentro{
+	text-align: center !important;
+}
+.txtContacto{
+    text-align: center !important;
+    color: #fff;
+}
+
+.txtIzq, .txtDer, .txtCentro{
+    clear: both;
+    padding-left: 0.5em;
+	font-size: 1.6em;
+	margin-bottom: 0.2em;
+}
+
+.txtIzq{
+	float: right;
+}
+.txtDer{
+	float: left;
+}
+.textoJustificado{
+	text-align: justify;
+}
+.textoMorado{
+	color: #d459a3;
+}
+
+.trespasos{
+	margin-bottom: -90px;
+    position: relative;
+    top: -30px;
+    font-size: 1.2rem;
+}
+
+.jumbotron {
+  border-radius: 0rem;
+  margin-bottom: 0rem;
+}
+
+
+h2{
+	font-size: 3em;
+}
+/* Botones ---------------------*/
+.btn-lg, .btn-group-lg > .btn{
+  margin: 0 auto;
+  width:50%;
+  padding: 0.4rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 1.5rem;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #421e5d;
+  border-color: #fff;
+    border-radius: 0rem;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #49c8f5;
+  border-color: #fff;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  -webkit-box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.5);
+          box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  background-color: #0275d8;
+  border-color: #0275d8;
+}
+
+.btn-primary:active, .btn-primary.active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #025aa5;
+  background-image: none;
+  border-color: #01549b;
+}
+
+.btnDropBlanco{
+	border-radius: 2rem;
+	background-color: white;
+	border: 1px solid #d459a3;
+    margin-bottom: 1rem;
+}
+
+.glyphicon{
+	color: #d459a3;
+}
+
+
+/* Disfraces -------------------------------------------------------*/
+.headerDisfraces{
+	position: relative;;
+	top: -200px;
+	margin-left: 0px;
+}
+
+.catalogo_Item{
+	width: 50%;
+    border: 4px solid #000;
+
+}
+.backDisfracesCat{
+	background-color: #a8d168;
+	border: 3px solid #a8d168;
+	color: #fff;
+	border-radius: 0px 0px 40px 40px;
+	padding-bottom: 20px;
+	margin-bottom: 2em;
+}
+.btnCat{
+    display: block;
+}
+
+
+/* Mi cuenta -----------------------------------------------------------*/
+
+
+/* SideBar MiCuenta .....................*/
+.list-group{
+    margin-bottom: 2rem;
+}
+.list-group-item {
+    z-index: 2;
+    color: #fff;
+	border-radius: 2rem;
+	background: none;
+	border: 1px solid #6bffff;
+    margin-bottom: 0.2rem;
+    padding: 0.4rem;
+    padding-left: 1rem;
+}
+
+.list-group-item:last-child {
+    margin-bottom: 0;
+	border-radius: 2rem;
+	background: none;
+	border: 1px solid #6bffff;
+}
+.list-group-item:Hover {
+    z-index: 2;
+    color: #fff;
+	border-radius: 2rem;
+	background-color: #49c8f5;
+	border: 1px solid #49c8f5;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+	border-radius: 2rem;
+	background-color: #49c8f5;
+	border: 1px solid #49c8f5;
+}
+.txtOlvidaste, .txtOlvidaste a{
+    color: #ffe500;
+}
+
+.txtLegales{
+    color: #999b9e;
+    font-size: 0.8rem;
+}
+.page-item{
+    background: none;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #fff;
+    /* background-color: #fff; */
+    background: none;
+    border: 1px solid #ffba47;
+    border-radius: 2rem;
+    margin-left: 0.2rem;
+}
+.page-link:last-child {
+   border-radius: 2rem;
+}
+.page-item.page-link {
+    background: black;
+}
+.page-link:Hover {
+    background-color: #a8d168;
+    color: #fff;
+    border: 1px solid #a8d168;
+}
+.iconoPaginador1, .iconoPaginador2{
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #a8d168;
+    border: none;
+    font-size: 1.5rem;
+    background: none;
+    position: relative;
+    top:-2px;
+}
+.iconoPaginador1{
+    color: #a8d168;
+    font-size: 2.3rem;    
+    border: none;
+    position: relative;
+    top:-9px;
+}
+.iconoPaginador1:Hover, .iconoPaginador2:Hover {
+    background: none;
+    color: #fff;
+    border: 0px solid #a8d168;
+}
+.btnAceptar, .btnCancelar, .btnPaypal{
+    float: left;
+    margin-bottom: 0.4rem;
+    width: 100%;
+}
+.btnAceptar{
+    background-color: #51b70d;
+}
+.btnCancelar{
+    background-color: #f15a24;
+}
+.btnPaypal{
+    width: 100%;
+    background-color: #195a7f;
+}
+.alertaDiv{
+    text-align: center;
+    color: #fff;
+    clear: both;
+    display: block;
+    height: auto;
+    background: none;
+    border-radius: 3rem;
+    border: 4px solid #f7931e;
+
+}
+.alertaDiv2{
+    display: block;
+    height: auto;
+    border-radius: 3rem;
+    border: 4px solid #f7931e;
+    margin: 0.3rem;
+    padding: 0.1rem;
+    
+}
+.alertaTxt{
+    display: block;
+    background-color: #f7931e;
+    border-radius: 3rem;
+    padding: 0.5rem 0.5rem;
+    margin: 0.2rem;
+    
+}
+input[type=radio]:checked ~ .check {
+  border: 5px solid #0DFF92;
+}
+.alertaDireccion{
+    float: right;
+    width: 75%;
+    background: #fff;
+    border: 1px solid #00aeef;
+    border-radius: 2.5rem;
+    color:black;
+    box-shadow: -3px 5px #cccccc;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+.alertaDireccion strong{
+    color: #51b70d;
+    font-size: 1.4rem;
+
+}
+.alertaEditar{
+    color: #51b70d;
+    display: block;
+    float: right;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+
+}
+.table thead th {
+    vertical-align: bottom;
+    border-right:  1px solid #fff;
+    border-bottom: 0px;
+}
+.thVerde{
+    background: #51b70d;
+    color: #fff;
+    border-right:  1px solid #fff;
+}
+.tabTxtRojo{
+    color: red;
+}
+.tabTxtGris{
+    color: grey;
+}
+#txtAzul{
+    color:#49c8f5;  
+}
+#txtAzul:Hover{
+    color:#fff;  
+}
+.checkbox{
+    font-size: 1.5rem;
+    color: grey;
+}
+.radioDireccion {
+    line-height: inherit;
+    position: relative;
+    top: 100px;
+}
+.h1MICuenta{
+    font-size:4rem;
+}
+.iconoEntrega{
+    margin-left: 1rem;
+    font-size: 3rem;
+    position: relative;
+    top:0.3rem;
+}
+.txtCompraExitosa{
+    font-size: 0.8rem;
+    text-align: center;
+    display: block;
+
+    background: #fff;
+    border: 1px solid #00aeef;
+    border-radius: 2.5rem;
+    color:black;
+    box-shadow: -3px 5px #cccccc;
+    padding: 1rem;
+    padding-bottom: 0REM;
+    margin-bottom: 1rem;
+}
+.txtCh{
+    font-size: 1rem;
+}
+.thcompraExitosa {
+    border-top: 0px;
+    border-right:  1px solid #51b70d !important;
+}
+textarea.form-control {
+    margin-top:1rem;
+     margin-bottom:2rem;
+    height: 170px;
+}
+.imgMicuenta{
+    max-width: 100px;
+}
+ul.StatusPedido {
+    list-style-image: url('../img/flag.png');
+}
+.statusActivo {
+    color: #51b70d;
+    list-style-image: url('../img/flagActiva.png');
+}
+
+-
+
+#paginadorMiCuenta{
+    color: #000 !important;
+}
+
+
+
+/* Home ----------- */
+#dropHome{
+    position: relative;
+    left: 4rem;
+}
+.iconoCalendario{
+    margin-left: 1rem;
+}
+.txt-EncuentraTuDisfraz{
+    margin-top: 6rem;
+}
+
+/* Detalle Producto ----------- */
+.dropVerde{
+    border-radius: 1.5rem;
+    border: 1px solid #51b70d;
+}
+.botonVerde{
+    width: 60% !important;
+    background-color: #51b70d!important;
+}
+.botonVerde:Hover{
+    background-color: #49c8f5!important;
+}
+.inputTxtCantidad{
+    margin: 0px;
+    width: 15%;
+}
+
+.formaregistro{
+    width: 50%
+    /* width: 50%; */
+    padding: 0px;
+    margin: auto;
+}
+
+/* Oct 14 ------------------------------*/
+/* Cambiar Datos -----------------------*/
+
+
+#formPassword {
+    margin: 0;
+    width: 100%;
+    border-color: #51b70d;
+    border-radius: 1.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+    width: auto;
+}
+@media (min-width: 576px) {
+    #formPassword {
+        width: 100%;
+        border-color: #51b70d;
+        border-radius: 1.5rem;
+        margin-bottom: 0.2rem;
+    }
+}
+
+.form-datos{
+    margin: 0 auto;
+	width: 100%;
+	border-color: #51b70d;
+	border-radius: 1.5rem;
+    margin-bottom: 0.2rem;
+}
+.columnaRegistro{
+    width: 75%;
+    margin: 0 auto;
+}
+.columnaRegistroCh{
+    width: 12rem;
+    margin: 0;
+    margin-bottom: 0.2rem;
+    float: left;
+}
+.columnaDisfracesRelacionados{
+    margin: 1rem;
+}
+
+
+#defineTuBusqueda{
+    display: block;
+    width: 250px;
+    height: auto;
+    /*margin: 0 auto;*/
+	border: 2px solid #d459a3;
+	border-radius:3rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+	/*color: rgba(81,183,13,0.2);
+	color: #95b58f;*/
+}
+.iconoMorado{
+    font-size: 1.3rem;
+}
+.dropBusqueda{
+    display: block;
+    width: 200px;
+}
